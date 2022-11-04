@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicios de Autoevaluación</title>
+    </head>
+    <body>
+        <h3>Ejercicios de autoevaluación</h3>
+        <p>6.18 Escriba una secuencia de comandos que reciba tres enteros
+            del usuario y muestre la suma, promedio, producto, menor y mayor de
+            los numeros en un diálogo alert.
+        </p>
+        <script>
+            var a,b,c, temporal;
+            var sum,prom,prod,mayor,menor;
+
+            a = parseInt(prompt("Escriba un numero:"));
+            b = parseInt(prompt("Escriba un numero:"));
+            c = parseInt(prompt("Escriba un numero:"));
+
+            sum = a + b + c;
+            prom = sum / 3;
+            prod = a * b * c;
+
+            function mayorOmenor(){
+                if(a>b){
+                    mayor = a;
+                    menor = b;
+                }else{
+                    mayor = b;
+                    menor = a;
+                }
+
+                if (mayor < c) {
+                    mayor = c;
+                }
+
+                if (menor > c) {
+                    menor = c;
+                }
+                
+            }
+            window.alert("La suma es: " + sum + "\nEl promedio es: "
+                + prom + "\nEl producto es: " + prod + 
+                "\nEl mayor: " + mayor + "\nEl menor: " + menor  
+            );
+        </script>
+    </body>
+</html>

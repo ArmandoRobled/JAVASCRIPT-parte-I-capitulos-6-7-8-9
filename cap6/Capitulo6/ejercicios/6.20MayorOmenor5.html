@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicios de Autoevaluación</title>
+    </head>
+    <body>
+        <h3>Ejercicios de autoevaluación</h3>
+        <p>6.20 Escriba una secuencia de comandos que lea cinco
+            enteros, determine y produzca marcado que mueste los enteros
+            menor y mayor en el grupo.
+        </p>
+        <script>
+            var n1,n2,n3,n3,n4,n5, mayor, menor;
+
+            n1 = parseInt(prompt("Escribe un numero: "));
+            n2 = parseInt(prompt("Escribe un numero: "));
+            n3 = parseInt(prompt("Escribe un numero: "));
+            n4 = parseInt(prompt("Escribe un numero: "));
+            n5 = parseInt(prompt("Escribe un numero: "));
+
+            mayor = Math.max(n1,n2,n3,n4,n5);
+            menor = Math.min(n1,n2,n3,n4,n5)
+            
+            document.write("El mayor: " + mayor + "<br>");
+            document.write("El menor: " + menor);
+        </script>
+    </body>
+</html>

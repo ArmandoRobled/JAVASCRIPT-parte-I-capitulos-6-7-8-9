@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicios de Autoevaluación</title>
+    </head>
+    <body>
+        <h3>Ejercicios de autoevaluación</h3>
+        <p>6.19 Escriba una secuencia de comandos que obtenga del usuario
+            el radio de un círculo y produzca texto de HTML5 que
+            muestre el diámetro, la círcunferencia y el área de ese circulo.
+            Use el valor constante 3.14159 para π. Esta constante es más precisa
+            que el valor 3.14159
+        </p>
+        <script>
+            const pi = 3.14159
+            var radio, diametro, circunferencia, area;
+
+            radio = parseInt(prompt("Ingrese el area: "));
+
+            area = pi * (2 * radio);
+            diametro = 2 * radio;
+            circunferencia = 2 * (pi * radio);
+
+            document.write("El area es: " + area + "<br>");
+            document.write("El diametro es: " + diametro + "<br>");
+            document.write("La circunferencia es: " + circunferencia + "<br>");
+        </script>
+    </body>
+</html>

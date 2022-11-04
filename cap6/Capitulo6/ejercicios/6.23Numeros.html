@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicios de Autoevaluación</title>
+    </head>
+    <body>
+        <h3>Ejercicios de autoevaluación</h3>
+        <p class="wea">6.23 Escriba una secuencia de comandos que reciba
+            un número, determine y produzca marcado que muestre la 
+            cantidad de números negativos, positivos y ceros introducidos.
+        </p>
+        <script>
+            var a,b,c;
+            var x,y,z;
+            var contadorNeg, contadorPos, contadorZero;
+
+            a = parseInt(prompt("Escribe un numero: "));
+            /*
+            b = parseInt(prompt("Escribe un numero: "));
+            c = parseInt(prompt("Escribe un numero: "));
+            */
+            if (a > 0) {
+                document.write("El numero " + a + " es positivo");
+                
+            }else if (a == 0) {
+                document.write("El numero " + a + " es cero");
+                
+            }else{
+                document.write("El numero " + a + " es negativo");
+            }
+        </script>
+    </body>
+</html>
